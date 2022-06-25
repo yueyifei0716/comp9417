@@ -15,11 +15,10 @@ x = x0
 k = 1
 
 while True:
-    delta = A_t @ (A @ x - b) + gamma * x
-    if np.linalg.norm(delta, ord=2) < 0.001:
+    grad = A_t @ (A @ x - b) + gamma * x
+    if np.linalg.norm(grad, ord=2) < 0.001:
         break
-
-    new_x = x - alpha * delta
+    new_x = x - alpha * grad
     x = new_x
     x_list.append(new_x)
     k = k + 1
@@ -29,7 +28,6 @@ length = len(x_list)
 for i in range(0, 6):
     x = x_list[i].reshape(1, 4)[0]
     print("k = {}, x(k) = [{},{},{},{}]".format(i,round(x[0],4) ,round(x[1],4), round(x[2],4), round(x[3],4)))
-
 
 for j in range(length - 5, length):
     x = x_list[j].reshape(1, 4)[0]
