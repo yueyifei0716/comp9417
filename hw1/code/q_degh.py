@@ -54,7 +54,7 @@ X_t = X_train.T
 
 beta_hat = np.linalg.inv(X_t @ X_train + phi * len(X_train) * np.identity(size)) @ X_t @ Y_train
 
-print('The value of the ridge solution based on X_train and Y_train:\n')
+print('The value of the ridge solution based on X_train and Y_train:')
 print(beta_hat)
 
 
