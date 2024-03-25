@@ -64,7 +64,7 @@ pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.3.0
+Pillow==10.2.0
 prometheus-client @ file:///opt/conda/conda-bld/prometheus_client_1643788673601/work
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
