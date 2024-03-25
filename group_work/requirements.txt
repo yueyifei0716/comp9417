@@ -22,7 +22,7 @@ et-xmlfile==1.1.0
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
 fastjsonschema @ file:///tmp/build/80754af9/python-fastjsonschema_1620414857593/work/dist
 fonttools==4.25.0
-future==0.18.2
+future==0.18.3
 hyperopt==0.2.7
 idna @ file:///tmp/build/80754af9/idna_1637925883363/work
 ipykernel @ file:///opt/concourse/worker/volumes/live/978537e4-0df2-4798-4ef9-a03dcdc32c00/volume/ipykernel_1647000841689/work/dist/ipykernel-6.9.1-py3-none-any.whl
