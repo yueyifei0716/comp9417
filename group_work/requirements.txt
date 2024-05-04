@@ -97,7 +97,7 @@ torch==1.12.0
 torchaudio==0.12.0
 torchvision==0.13.0
 tornado @ file:///opt/concourse/worker/volumes/live/2c1a63a2-006b-48ee-56b9-0cfe8b4927f9/volume/tornado_1606942321278/work
-tqdm==4.64.0
+tqdm==4.66.3
 traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
 typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
 urllib3 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_53dwuk2xkk/croots/recipe/urllib3_1659110467968/work
